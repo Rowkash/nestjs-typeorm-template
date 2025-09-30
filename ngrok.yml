@@ -1,0 +1,13 @@
+version: "3"
+
+agent:
+  authtoken: 39QjIOdW0aq6WN71z0S9JrFIQyS_3o4ziAEdq5HLtkFCZxKak
+endpoints:
+  - name: lokaapp
+    url: https://karima-unbadgering-alannah.ngrok-free.dev
+    upstream:
+      url: 3000
+  - name: minio
+    url: http://karima-unbadgering-alannah.ngrok-free.dev
+    upstream:
+      url: 9000
